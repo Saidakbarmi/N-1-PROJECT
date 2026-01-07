@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW M Experience</title>
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- HEADER MENU -->
+    <header class="Menu">
+        <a class="logo" href="#">Cars.</a>
+        <nav class="nav-menu" id="navMenu">
+            <a href="#" style="--i:1">Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">Review</a>
+            <a href="#" style="--i:4">Featured</a>
+            <a href="#" style="--i:5">Contact</a>
+            <span></span>
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+</div>
+
+        </nav>
+
+        <!-- SOCIAL MEDIA -->
+         <div class="social-media">
+            <a href="https://t.me/abdujabborov_dev" style="-i:1" ><i class='bxl  bx-telegram'></i> </a>
+            <a href="https://www.instagram.com/abdujabboroovvvv?igsh=MWRucDJqc2RndXNuYg==" style="--i:2" ><i class='bxl  bx-instagram'></i> </a>
+            <a href="https://www.youtube.com/@abdujabborov.11" style="--i:3" ><i class='bxl  bx-youtube'></i></a>
+         </div>
+    </header>
+
+    <!-- SECTION -->
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Car Dealing Experience</h1>
+            <h3>Redefined !</h3>
+      <p>
+            This aggressive BMW sports car features a powerful engine lowered stance premium design and modern tuning delivering speed stability confidence and an exciting driving experience on road conditions
+</p>
+
+
+             <a href="https://www.bmw.com/en/index.html" class="btn">Exflore Cars</a>
+        </div>
+       
+        <!-- HOME IMG -->
+         <div class="home-img">
+            <div class="rhombus">
+                <img src="./images/car.png" alt="">
+            </div>
+         </div>
+
+         <div class="rhombus2"></div>
+    </section>
+
+    <script>
+    const burger = document.getElementById("burger");
+    const navMenu = document.getElementById("navMenu");
+
+    burger.addEventListener("click", () => {
+        burger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    });
+</script>
+
+</body>
+</html>
